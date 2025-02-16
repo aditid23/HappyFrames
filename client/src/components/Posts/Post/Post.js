@@ -1,4 +1,5 @@
 import React from 'react';
+// import { StyledCard, StyledMedia, Overlay, Overlay2, Details, Title, StyledCardActions } from "../styles";
 
 const Post = () =>{
     return(

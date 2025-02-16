@@ -1,5 +1,5 @@
 import React from 'react';
-import { styled } from '@mui/material/styles';
+// import { StyledPaper, StyledForm, FileInput, SubmitButton } from "./styles";
 
 const Form = () =>{
     return(
