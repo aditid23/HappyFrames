@@ -22,7 +22,7 @@ export const createPost = async(req, res) => {
     try{
         await newPost.save();
 
-        res.staut(201).json(newPOst);
+        res.status(201).json(newPost);
     } catch(error){
         res.status(409).json({message: error.message});
     }
