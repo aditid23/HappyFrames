@@ -9,8 +9,8 @@ const app = express();
 
 
 
-app.use(bodyParser.json({Limit : "30mb", extended: true}));
-app.use(bodyParser.urlencoded({Limit : "30mb", extended: true}));
+app.use(bodyParser.json({Limit : "1mb", extended: true}));
+app.use(bodyParser.urlencoded({Limit : "1mb", extended: true}));
 app.use(cors());
 
 app.use('/posts', postRoutes);

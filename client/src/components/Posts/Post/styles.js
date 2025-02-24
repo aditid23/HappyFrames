@@ -64,3 +64,10 @@ export const StyledCardActions = styled(CardActions)({
   display: "flex",
   justifyContent: "space-between",
 });
+
+export const Message = styled(Typography)({
+  fontSize: "25px", 
+  padding: "0 16px",
+  whiteSpace: "normal",
+  wordWrap: "break-word",
+});
