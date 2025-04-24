@@ -35,7 +35,7 @@ const Post = ({ post, setCurrentId }) => {
                 <Title variant='h5' gutterBottom>{post.title}</Title>
             </CardContent>
             <CardContent>
-                <Title variant='h5' gutterBottom>{post.message}</Title>
+                <Title variant='body2' color = "textSecondary" component="p">{post.message}</Title>
             </CardContent>
             <StyledCardActions>
                 <Button size="small" color="primary" onClick={() => dispatch(likePost(post._id))}>

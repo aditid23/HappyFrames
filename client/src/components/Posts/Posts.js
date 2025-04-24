@@ -3,7 +3,7 @@ import { Grid, CircularProgress } from '@mui/material';
 import { useSelector } from 'react-redux';
 
 import Post from './Post/Post';
-import { MainContainer, SmMargin } from './styles'; // Ensure correct path to styles.js
+import { MainContainer, SmMargin } from './styles'; 
 
 const Posts = ({setCurrentId}) => {
     const posts = useSelector((state) => state.posts);
